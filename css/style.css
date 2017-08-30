@@ -38,12 +38,17 @@ body{
 	margin: 0 auto;
 }
 
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .btn{
   display: inline-block;
   font-size: 14px;
   padding: 14px;
   box-sizing: border-box;
-  border: 1px solid #000;
   border-size: border-box;
   border: 2px solid #000;
   text-decoration: none;
@@ -183,7 +188,6 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  /*display: inline-block;*/
 }
 
 .service-item-vertical {
@@ -212,7 +216,6 @@ body{
   padding-right: 20px;
   box-sizing: border-box;
   height: 250px;
-  /*float: left;*/
 }
 
 .service-item-horizontal {
@@ -590,19 +593,72 @@ body{
   background-position: -206px -5px;
 }
 
+.instructor-profile-photo {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+}
 
-.instructors-info-name {
+.instructor-profile-descr {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+  margin-left: 35px;
+}
+
+.instructor-profile-exp p{
   text-align: center;
+}
+
+.instructor-profile-sport{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.instructor-profile-exp {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-right: 45px;
+}
+
+.instructor-profile-style {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 44px;
+  margin-right: 20px;
+}
+.instructor-profile-style ul {
+    list-style: none;
+    padding: 0;
+}
+
+.instructor-profile-social {
+  vertical-align: top;
+  width: 140px;
+  float: right;
+}
+
+.like-btn {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.instructors-info {
+  margin-top: 40px;
+}
+
+.instructor-info-name {
+  text-align: center;
+  margin-top: 0;
 }
 
 .instructors-info-item {
   display: inline-block;
 /*  margin-right: 20px;
   margin-left: 20px;*/
-}
-
-.instructors-info-item h3 {
-  text-align: center;
 }
 
 .instructors-info-item-col {
@@ -623,13 +679,29 @@ body{
 
 .education {
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 20px;
+/*  margin-right: 20px;
+  margin-left: 20px;*/
+  width: 500px;
+  vertical-align: top;
 }
 .video-profile {
-  display: inline-block;
-  width: 500px;
-  height: 280px;
+/*  display: inline-block;*/
+/*  width: 500px;
+  height: 280px;*/
+/*  background-color: grey;*/
+/*  vertical-align: top;*/
+  float: right;
+  margin-top: 30px;
+}
+.instructor-profile-progress:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.progress-list {
+  list-style: none;
+  padding: 0;
 }
 
 /*review*/
