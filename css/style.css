@@ -709,6 +709,7 @@ body{
   height: 230px;
   background-image: url(../img/review-bg.png);
   background-repeat: no-repeat;
+  margin-bottom: 70px;
 }
 .review-content {
   width: 700px;
@@ -722,11 +723,20 @@ body{
 .review-profile h3{
   display: inline-block;
   font-size: 20px;
+  margin-right: 25px;
+  margin-top: 20px;
 }
 
 .review-content p{
   font-size: 15px;
   font-family: PTSans, sans-serif;
+}
+.review-vk {
+  width: 28px;
+  height: 16px;
+}
+.instructors-bot {
+  margin-bottom: 90px;
 }
 
 /*Schedule section*/
