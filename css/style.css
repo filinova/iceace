@@ -741,11 +741,40 @@ body{
 
 /*Schedule section*/
 
-table {
+.schedule-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.tbl {
   border-collapse: collapse;
+  width: 100%;
+  margin-top: 28px;
 }
 
 td {
-  border: 1px solid black;
+  border: 2px solid black;
   border-spacing: 0px;
+  padding-left: 14px;
+  padding-top: 19px;
+  padding-bottom: 17px;
+  font-size: 15px;
+  font-weight: bold;
 } 
+.tr-title {
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.tbl-btn {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  padding: 14px;
+  text-decoration: none;
+  color: #74e196;
+  text-transform: uppercase;
+  padding: 0;
+}
