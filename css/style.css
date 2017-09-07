@@ -49,7 +49,6 @@ body{
   font-size: 14px;
   padding: 14px;
   box-sizing: border-box;
-  border-size: border-box;
   border: 2px solid #000;
   text-decoration: none;
   color: #74e196;
@@ -552,7 +551,7 @@ body{
 
 .instructors-item {
   position: relative;
-  display: inline-block;
+  /*display: inline-block;*/
   float: left;
 }
 
@@ -786,25 +785,47 @@ td {
   box-sizing: border-box;
 }
 
+.instr-photo {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 60px;
+  
+}
+
 .instr-photo img {
   border: 2px solid #74e196;
   border-radius: 50%;
+  width: 200px;
 }
 
 .instr-name {
   background-color: #000;
   width: 200px;
   height: 50px;
+  position: absolute;
+  bottom: -15px;
 }
+
 .instr-name-text {
   color: #fff;
   text-align: center;
-  margin: 0 auto;
+  
+}
+
+.instr-profile {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  margin-bottom: 50px;
 }
 
 .instr-profile-title {
   font-size: 30px;
   font-weight: bold;
+  margin-top: 60px;
 }
 
 .date-descr {
@@ -820,6 +841,7 @@ td {
 .instr-descr {
   font-size: 15px;
   font-weight: bold;
+  line-height: 22px;
 }
 
 .instr-link-more {
@@ -830,9 +852,17 @@ td {
   color: #000;
 }
 
+.instr-offer {
+  display: inline-block;
+  vertical-align: top;
+}
+
 .instr-offer-price {
+  display: block;
   font-size: 40px;
   font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .instr-offer-buy {
@@ -848,6 +878,14 @@ td {
   color: #74e196;
   text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+}
+
+.instr-pages {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 24px;
 }
 
 .callback-inner {
@@ -863,4 +901,29 @@ td {
 
 .callback-form {
   width: 100%;
+
+}
+
+.callback-input {
+  border: 2px solid #000;
+  width: 558px;
+  height: 47px;
+  box-sizing: border-box;
+}
+
+.callback-label {
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 35px;
+}
+
+.callback-btn {
+  font-size: 15px;
+  padding: 14px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  text-decoration: none;
+  color: #74e196;
+  text-transform: uppercase;
+  text-align: center;
 }
