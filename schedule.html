@@ -113,15 +113,25 @@
       <div class="callback-inner">
         <div class="request-form">
           <form action="#" class="callback-form">
-            <label for="name" class="callback-label">*Имя</label><br>
+            <label for="name">
+              <span class="callback-label">*Имя</span>
+            </label>
             <input type="text" id="name" required class="callback-input"><br>
-            <label for="surname" class="callback-label">*Фамилия</label><br>
+            <label for="surname">
+              <span class="callback-label">*Фамилия</span>
+            </label>
             <input type="text" id="surname" required class="callback-input"><br>
-            <label for="phone" class="callback-label">*Телефон</label><br>
+            <label for="phone">
+              <span class="callback-label">*Телефон</span>
+            </label>
             <input type="tel" id="phone" required class="callback-input"><br>
-            <label for="msg" class="callback-label">Ваше сообщение</label><br>
-            <textarea id="msg" class="callback-input"></textarea><br>
-            <button type="submit" class="callback-btn">Отправить</button>
+            <label for="msg">
+              <span class="callback-label">Ваше сообщение</span>
+            </label>
+            <textarea id="msg" class="callback-input callback-textarea"></textarea><br>
+            <button type="submit" class="callback-btn">
+              <span>Отправить</span>
+            </button>
           </form>
         </div>
       </div>

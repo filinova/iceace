@@ -912,12 +912,14 @@ td {
 }
 
 .callback-label {
+  display: block;
   font-size: 20px;
   padding-bottom: 15px;
   padding-top: 35px;
 }
 
 .callback-btn {
+  display: block;
   font-size: 15px;
   padding: 14px;
   box-sizing: border-box;
@@ -925,5 +927,10 @@ td {
   text-decoration: none;
   color: #74e196;
   text-transform: uppercase;
-  text-align: center;
+  background-color: transparent;
+  margin: 60px auto;
+}
+.callback-textarea {
+  height: 120px;
+  resize: none;
 }
