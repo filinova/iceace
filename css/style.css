@@ -549,6 +549,16 @@ body{
   text-align: center;
 }
 
+.instructors-item-wrap {
+  background-color: #999999;
+  opacity: 0.3;
+}
+
+.instructors-item-wrap:hover {
+  background-color: #74e196;
+  opacity: 0.3;
+}
+
 .instructors-item {
   position: relative;
   /*display: inline-block;*/
