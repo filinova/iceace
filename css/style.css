@@ -924,22 +924,27 @@ tr {
 
 .tr-sport {
   width: 160px;
+  padding-bottom: 20px;
 }
 
 .tr-insrt {
   width: 300px;
+  padding-bottom: 20px;
 }
 
 .tr-date {
   width: 155px;
+  padding-bottom: 20px;
 }
 
 .tr-time {
   width: 155px;
+  padding-bottom: 20px;
 }
 
 .tr-price {
   width: 155px;
+  padding-bottom: 20px;
 }
 
 
@@ -975,6 +980,7 @@ td {
   border: 2px solid #000;
   box-sizing: border-box;
   padding-top: 45px;
+  height: 375px;
 }
 
 .instr-photo {
@@ -998,13 +1004,14 @@ td {
   width: 200px;
   height: 50px;
   position: absolute;
-  bottom: -15px;
+  bottom: 0px;
 }
 
 .instr-name-text {
+  display: block;
   color: #fff;
   text-align: center;
-  
+  margin: 7px;
 }
 
 .instr-profile {
@@ -1019,8 +1026,13 @@ td {
   font-weight: 300;
   font-size: 30px;
   font-weight: bold;
-  margin-top: 60px;
+  margin: 0;
+  margin-bottom: 15px;
 }
+
+/*.instr-profile-title h3 {
+  margin: 0;
+}*/
 
 .date-descr {
   font-family: 'PTSans', sans-serif;
@@ -1057,6 +1069,7 @@ td {
 .instr-offer {
   display: inline-block;
   vertical-align: top;
+  padding-left: 25px;
 }
 
 .instr-offer-price {
@@ -1064,8 +1077,7 @@ td {
   font-weight: 500;
   font-size: 30px;
   display: block;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .instr-offer-buy {
@@ -1085,10 +1097,27 @@ td {
 }
 
 .instr-pages {
+  display: inline-block;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   margin-top: 24px;
+}
+
+.slider-counter {
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.slider-counter li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.slider-num {
+  text-decoration: none;
 }
 
 .callback-inner {
@@ -1101,6 +1130,8 @@ td {
   font-size: 40px;
   font-weight: 300;
   text-align: center;
+  margin-top: 55px;
+  margin-bottom: 10px;
 }
 
 .callback-form {
@@ -1125,7 +1156,7 @@ input {
   font-weight: 500;
   font-size: 20px;
   padding-bottom: 15px;
-  padding-top: 35px;
+  padding-top: 30px;
 }
 
 .callback-btn {
@@ -1140,7 +1171,8 @@ input {
   color: #74e196;
   text-transform: uppercase;
   background-color: transparent;
-  margin: 60px auto;
+  margin: 48px auto 68px;
+  width: 135px;
 }
 .callback-textarea {
   height: 120px;
