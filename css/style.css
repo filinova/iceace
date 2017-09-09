@@ -85,6 +85,7 @@ body{
   font-weight: 300;
   font-size: 40px;
   text-align: center;
+  margin-top: 0;
 }
 .section-subtitle {
   font-family: 'FuturaPT';
@@ -287,6 +288,14 @@ body{
 
 /*features*/
 
+.features-title {
+  font-family: 'FuturaPT';
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+
 .features-item {
   font-family: 'FuturaPT', sans-serif;
   font-weight: 500;
@@ -296,12 +305,14 @@ body{
   padding-right: 20px;
   box-sizing: border-box;
   width: 33.33%;
+  padding-bottom: 50px;
 }
 
 .features-item p {
   font-family: 'PTSans', sans-serif;
   font-weight: 400;
   font-size: 15px;
+  line-height: 22pt;
 }
 
 .features-item:before {
@@ -403,6 +414,7 @@ body{
   font-size: 22px;
   text-align: center;
   color: white;
+  margin-top: 0;
 }
 .btn-border-white {
   border-color: white;
@@ -441,6 +453,15 @@ body{
   margin: auto;
 }
 
+.team-title {
+  font-family: 'FuturaPT';
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
 .community p{
   font-family: 'PTSans', sans-serif;
   font-weight: 400;
@@ -455,7 +476,15 @@ body{
 
 /*instagram section*/
 
-.section-title a {
+.instagram-title {
+  font-family: 'FuturaPT';
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 115px;
+}
+
+.instagram-title a {
   text-decoration: none;
   font-size: 40px;
   text-align: center;
@@ -504,6 +533,11 @@ body{
   width: 33.33%;
   vertical-align: middle;
   text-align: center;
+}
+
+.social ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 .social-item {
   display: inline-block;
